@@ -53,7 +53,11 @@ WOA_ANFIS_HEMS
 
 ## 執行流程
 
-#### 1.初始化 WOA
+#### 1.執行anfis_price.py
+
+生成 訓練模型 `anfis_model_price.pt` 、縮放器 `scaler_price.pkl` 、配置參數 `config_price.pkl`
+
+#### 2.執行 WOA_price_online.py 初始化 WOA
 
 ```
 woa = WhaleOptimizationHEMS(
@@ -64,13 +68,13 @@ woa = WhaleOptimizationHEMS(
 )
 ```
 
-#### 2.初始化室內環境
+#### 3.初始化室內環境
 
  - 第一次迭代隨機生成室內溫濕度
 
  - 後續迭代移除舊資料並新增模擬數據
 
-#### 3.執行 optimize()
+#### 4.執行 optimize()
 
  - 輸出最佳溫濕度 (best_position)
   
@@ -81,10 +85,6 @@ woa = WhaleOptimizationHEMS(
  - 用電成本 (cost)
     
  - PMV 舒適度 (pmv)
-
-#### 4.更新環境
-
- - 使用 change() 根據設備運行結果更新室內溫濕度
 
 #### 5.比較與分析
 
