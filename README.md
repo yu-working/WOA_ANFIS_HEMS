@@ -76,15 +76,11 @@ woa = WhaleOptimizationHEMS(
 
 #### 4.執行 optimize()
 
- - 輸出最佳溫濕度 (best_position)
-  
- - 最佳適應度 (best_fitness)
-    
- - 設備狀態 (device_state)
-    
- - 用電成本 (cost)
-    
- - PMV 舒適度 (pmv)
+ - 呼叫 `optimize` 找出最佳溫濕度與設備策略。
+
+ - 呼叫 `change` 模擬室內環境變化，更新下一步的室內數據。
+
+ - 紀錄 PMV、用電成本、最佳適應度
 
 #### 5.比較與分析
 
