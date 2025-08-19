@@ -1,3 +1,12 @@
+#result
+result/
+
+#config
+config/
+
+#data
+nilm_data_ritaluetb_hour.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
