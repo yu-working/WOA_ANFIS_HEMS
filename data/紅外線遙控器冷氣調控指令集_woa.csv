@@ -1,0 +1,17 @@
+index,order,ac_state,ac_mode,ac_fan,ac_temp
+0,order0,1,1,1,24
+1,order1,1,1,1,26
+2,order2,1,1,1,27
+3,order3,1,1,1,28
+4,order4,1,1,1,29
+5,order5,1,1,0,26
+6,order6,1,1,0,27
+7,order7,1,1,0,28
+8,order8,1,1,0,29
+9,order9,1,1,2,26
+10,order10,1,1,2,27
+11,order11,1,1,2,28
+12,order12,1,1,2,29
+13,order16,1,0,2,28
+14,order17,1,0,0,28
+15,order18,1,0,1,28
