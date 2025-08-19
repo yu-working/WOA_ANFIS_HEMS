@@ -84,7 +84,7 @@ woa = WhaleOptimizationHEMS(
 
 #### 5.比較與分析
 
- - 匯出結果表格，欄位包含:env_temp,env_humd,best_temp,best_humd,dehumidifier,dehumidifier_hum,ac_temp,ac_fan,ac_mode,fan_state,pmv
+ - 匯出結果表格，欄位包含:`env_temp`、`env_humd`、`best_temp`、`best_humd`、`dehumidifier`、`dehumidifier_hum`、`ac_temp`、`ac_fan`、`ac_mode`、`fan_state`、`pmv`
 
  - 與實際 NILM 測試數據比較節能率
 
