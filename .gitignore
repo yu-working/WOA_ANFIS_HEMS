@@ -2,7 +2,7 @@
 result/
 
 #config
-config
+config/
 
 #data
 nilm_data_ritaluetb_hour.csv
